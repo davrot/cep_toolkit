@@ -1,2 +1,2 @@
 #!/bin/bash
-docker logs -f languagetool
+docker compose logs -f languagetool

@@ -1,2 +1,2 @@
 #!/bin/bash
-docker compose logs -f bridge
+docker compose logs -f git-bridge

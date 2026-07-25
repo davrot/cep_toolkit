@@ -1,0 +1,10 @@
+services:
+  sharelatex:
+
+
+    healthcheck:
+      test: bash -c "curl  -fsI --connect-timeout 10 http://localhost || exit 1"
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 600s
